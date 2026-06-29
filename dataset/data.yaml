@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 18
+names: ['a_back', 'a_bar', 'a_emb', 'a_front', 'a_govt', 'a_masked', 'a_num', 'a_photo', 'a_qr', 'a_top', 'a_uidai', 'a_vid', 'card_passport', 'card_voter_id', 'p_emb', 'p_front', 'p_gov', 'p_num']
+
+roboflow:
+  workspace: monika-ztd2k
+  project: aadhaar-card-1-ebbdz
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/monika-ztd2k/aadhaar-card-1-ebbdz/dataset/4
